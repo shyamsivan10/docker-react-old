@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: Docker Project
           environment_name: Dockerproject-env
-          existing_bucket_name: elasticbeanstalk-us-east-2-815449996656
+          existing_bucket_name: elasticbeanstalk-ap-south-1-815449996656
           region: ap-south-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
